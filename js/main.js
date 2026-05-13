@@ -57,7 +57,7 @@ function handleCustomOrder() {
     `Looking forward to your beautiful creation! 💐`
   );
 
-  window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
+  window.open(`https://wa.me/917499953036?text=${msg}`, '_blank');
 
   if (note) { note.textContent = 'Opening WhatsApp… 🎉'; note.className = 'form-note success'; }
   setTimeout(() => { if (note) note.textContent = ''; }, 5000);

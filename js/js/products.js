@@ -22,7 +22,7 @@
 const GOOGLE_SHEET_URL = '';
 // Example: 'https://opensheet.elk.sh/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms/Products'
 
-const WHATSAPP_NUMBER = '919876543210'; // Your WhatsApp number with country code, no + or spaces
+const WHATSAPP_NUMBER = '917499953036'; // Your WhatsApp number with country code, no + or spaces
 
 /* ─────────────────────────────────────────────
    STATIC FALLBACK PRODUCTS

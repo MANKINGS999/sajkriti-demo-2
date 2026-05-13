@@ -30,7 +30,7 @@ const SHEET_TAB       = 'Products'; // ← Change this if your tab is named diff
 
 const GOOGLE_SHEET_URL = `https://opensheet.elk.sh/${SPREADSHEET_ID}/${encodeURIComponent(SHEET_TAB)}`;
 
-const WHATSAPP_NUMBER = '919876543210'; // ← Replace with your WhatsApp number (country code + number, no + or spaces)
+const WHATSAPP_NUMBER = '917499953036'; // ← Replace with your WhatsApp number (country code + number, no + or spaces)
 
 /* ─────────────────────────────────────────────
    STATIC FALLBACK PRODUCTS
