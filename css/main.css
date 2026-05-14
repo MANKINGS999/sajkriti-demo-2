@@ -230,21 +230,22 @@ img { display: block; max-width: 100%; }
 }
 .hero-img {
   position: absolute;
-  top: 0; bottom: 0;
+  top: 0; left: 0;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
-.hero-img-left { left: 0; width: 55%; }
-.hero-img-right { right: 0; width: 55%; }
+.hero-img-full { width: 100%; left: 0; }
 .hero-bg::after {
   content: '';
   position: absolute;
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(255,240,243,0.82) 0%,
-    rgba(255,240,243,0.65) 40%,
-    rgba(255,220,230,0.38) 100%
+    rgba(255,230,238,0.88) 0%,
+    rgba(255,220,230,0.70) 45%,
+    rgba(255,200,220,0.25) 100%
   );
 }
 
@@ -385,10 +386,10 @@ img { display: block; max-width: 100%; }
 .why-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../images/flower-wall.jpg');
+  background-image: url('../images/why-choose-bg.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.10;
+  opacity: 0.12;
 }
 .why-grid {
   display: grid;
@@ -947,14 +948,13 @@ img { display: block; max-width: 100%; }
     padding: 40px 20px 60px;
     max-width: 100%;
   }
-  .hero-img-left  { width: 50%; left: 0;  opacity: 0.55; display: block; }
-  .hero-img-right { width: 50%; right: 0; opacity: 0.55; display: block; }
+  .hero-img-full { opacity: 0.60; object-position: 65% center; }
   .hero-bg::after {
     background: linear-gradient(
       to bottom,
-      rgba(255,240,243,0.85) 0%,
-      rgba(255,240,243,0.68) 50%,
-      rgba(255,220,230,0.48) 100%
+      rgba(255,230,238,0.90) 0%,
+      rgba(255,220,230,0.75) 50%,
+      rgba(255,200,220,0.40) 100%
     );
   }
   .hero-title { font-size: clamp(2rem, 9vw, 3rem); }
@@ -1089,10 +1089,10 @@ img { display: block; max-width: 100%; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../images/cosmos-field.jpg');
+  background-image: url('../images/collection-bg.jpg');
   background-size: cover;
   background-position: center top;
-  opacity: 0.06;
+  opacity: 0.08;
   z-index: 0;
 }
 .shop-section .section-header,
